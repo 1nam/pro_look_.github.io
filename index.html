@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pro Studio Looks 📸</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pro Studio Looks</h1>
+    <p>Pick your camera, apply filters, and create your professional masterpiece… featuring a smiling donkey 😏</p>
+  </header>
+
+  <div class="container">
+    <div class="studio">
+      <label for="camera">Camera Style:</label>
+      <select id="camera">
+        <option>DSLR</option>
+        <option>Polaroid</option>
+        <option>Vintage</option>
+      </select>
+
+      <label for="filter">Filter:</label>
+      <select id="filter">
+        <option>None</option>
+        <option>Sepia</option>
+        <option>Black & White</option>
+        <option>Vibrant</option>
+      </select>
+
+      <button id="takePhoto">Take Photo 📸</button>
+      <div class="photo">
+        <img id="photoDisplay" src="" alt="">
+        <div id="flashOverlay"></div>
+      </div>
+    </div>
+
+    <div class="blog">
+      <h2>Testimonials</h2>
+      <ul id="testimonialList"></ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
