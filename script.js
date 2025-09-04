@@ -6,9 +6,9 @@ const filterSelect = document.getElementById('filter');
 const flashOverlay = document.getElementById('flashOverlay');
 
 const donkeys = [
-  'images/donkey1.jpg',
-  'images/donkey2.jpg',
-  'images/donkey3.jpg'
+  'donkey1.jpg',
+  'donkey2.jpg',
+  'donkey3.jpg'
 ];
 
 const testimonials = [
